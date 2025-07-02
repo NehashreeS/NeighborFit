@@ -204,34 +204,6 @@ Get all available neighborhoods.
 ### GET /health
 API health check with status information.
 
-## 🚀 Production Deployment
-
-### Frontend Deployment
-The frontend can be deployed to any static hosting service:
-
-```bash
-# Build for production
-npm run build
-
-# Deploy dist/ folder to:
-# - Netlify
-# - Vercel
-# - AWS S3 + CloudFront
-# - GitHub Pages
-```
-
-### Backend Deployment
-The backend can be deployed to various platforms:
-
-#### Heroku
-```bash
-# Create Procfile
-echo "web: gunicorn app:app" > backend/Procfile
-
-# Deploy to Heroku
-heroku create neighborfit-api
-git subtree push --prefix backend heroku main
-```
 
 
 ## 📄 License
