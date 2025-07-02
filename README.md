@@ -2,7 +2,7 @@
 
 A full-stack web application that helps users find the perfect neighborhoods based on their lifestyle preferences, budget, and priorities.
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Frontend (React + TypeScript)
 - **Modern React** with TypeScript and Tailwind CSS
@@ -18,7 +18,7 @@ A full-stack web application that helps users find the perfect neighborhoods bas
 - **CORS Support** for frontend integration
 - **Error Handling** with detailed validation
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js 16+ and npm
@@ -88,11 +88,13 @@ python app.py
 - **Quality Reporting** with detailed statistics
 - **Flexible Data Sources** ready for real API integration
 
-## 🛠️ Development
+## 🛠 Development
 
 ### Frontend Development
 ```bash
 # Start development server with hot reload
+npm install
+
 npm run dev
 
 # Build for production
@@ -109,14 +111,13 @@ npm run lint
 ```bash
 cd backend
 
-# Run in development mode
-FLASK_ENV=development python app.py
+pip install -r requirements.txt
 
 # Run data pipeline
 python run_data_pipeline.py
 
 # Run with different configurations
-FLASK_ENV=production python app.py
+python app.py
 ```
 
 ### Environment Variables
@@ -232,46 +233,6 @@ heroku create neighborfit-api
 git subtree push --prefix backend heroku main
 ```
 
-#### Docker
-```dockerfile
-FROM python:3.9-slim
-WORKDIR /app
-COPY backend/requirements.txt .
-RUN pip install -r requirements.txt
-COPY backend/ .
-EXPOSE 5000
-CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:5000", "app:app"]
-```
-
-## 🧪 Testing
-
-### Frontend Testing
-```bash
-# Run tests (when test suite is added)
-npm test
-
-# Run tests in watch mode
-npm run test:watch
-```
-
-### Backend Testing
-```bash
-cd backend
-
-# Run tests (when test suite is added)
-python -m pytest tests/
-
-# Run with coverage
-python -m pytest --cov=. tests/
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## 📄 License
 
