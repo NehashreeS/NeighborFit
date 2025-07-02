@@ -1,0 +1,13 @@
+id,name,avg_rent,safety_score,walkability,family_friendly,noise_level,description,highlights
+1,Green Valley Heights,1200,4.8,4.2,4.9,2.1,A peaceful suburban neighborhood perfect for families with excellent schools and parks.,Top-rated schools;Multiple parks;Low crime rate;Family events
+2,Downtown District,2800,3.9,4.9,3.2,4.1,Vibrant urban center with excellent walkability and nightlife.,Public transit;Restaurants;Entertainment;Career opportunities
+3,Riverside Commons,1800,4.5,4.0,4.3,2.8,Modern mixed-use community with river views and amenities.,River access;Modern amenities;Bike paths;Community center
+4,Historic Oak Grove,1600,4.6,3.8,4.7,2.3,Charming historic district with tree-lined streets and character homes.,Historic charm;Tree-lined streets;Local shops;Community gardens
+5,Tech Corridor,2400,4.3,4.4,3.8,3.2,Modern neighborhood near tech companies with contemporary amenities.,Tech proximity;Modern infrastructure;Cafes;Co-working spaces
+6,Sunset Ridge,1400,4.7,3.5,4.6,2.0,Quiet residential area with mountain views and spacious homes.,Mountain views;Spacious lots;Hiking trails;Quiet streets
+7,Harbor Front,3200,4.1,4.6,3.5,3.8,Luxury waterfront living with marina access and upscale dining.,Waterfront views;Marina access;Fine dining;Luxury amenities
+8,College Town,900,3.6,4.3,2.8,4.2,Vibrant college neighborhood with affordable housing and young energy.,Affordable rent;Young community;Entertainment;Public transit
+9,Maple Grove,1500,4.8,3.9,4.8,1.9,Family-oriented suburb with excellent schools and community spirit.,Excellent schools;Community events;Safe streets;Playgrounds
+10,Industrial District,800,3.2,2.8,2.5,4.5,Affordable area undergoing revitalization with growing arts scene.,Affordable;Arts scene;Development potential;Loft spaces
+11,Lakeside Estates,2200,4.9,3.2,4.4,1.8,Upscale lakefront community with private beaches and golf course.,Lake access;Golf course;Private beaches;Luxury homes
+12,Arts Quarter,1700,4.0,4.7,3.6,3.5,"Creative district with galleries, studios, and cultural venues.",Art galleries;Creative community;Cultural events;Unique architecture
