@@ -210,7 +210,7 @@ API health check with status information.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🆘 Support
+## Support
 
 If you encounter any issues:
 
